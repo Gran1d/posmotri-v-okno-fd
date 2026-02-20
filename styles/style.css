@@ -174,7 +174,7 @@ ol {
 }
 
 .content__video-card-title {
-  display: inline-block;
+  margin-top: -5px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   text-transform: uppercase;
@@ -296,21 +296,3 @@ button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
-
-.content__list-item {
-  /*padding: 3px;*/
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
