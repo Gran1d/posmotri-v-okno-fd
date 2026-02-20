@@ -94,10 +94,6 @@ ol {
   height: 100%;
 }
 
-.title {
-  margin-bottom: 26px;
-}
-
 .result__video-container {
   position: relative;
   width: 711px;
@@ -149,6 +145,7 @@ ol {
   font-size: 75px;
   text-transform: uppercase;
   line-height: 0.94;
+  margin-bottom: 26px;
 }
 
 .content__accent {
