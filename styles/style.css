@@ -83,7 +83,6 @@ ol {
   position: relative;
   height: 298px;
   overflow-y: scroll;
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -130,7 +129,6 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   width: 196px;
-  padding: 1px;
 }
 
 .search-form__fieldset-title {
@@ -171,7 +169,8 @@ ol {
 }
 
 .content__video-card-title {
-  margin-top: -5px;
+  line-height: 1;
+  padding-bottom: 5px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   text-transform: uppercase;
@@ -261,7 +260,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
